@@ -13,6 +13,7 @@ public class NumOrderCondition
       double b = in.nextDouble();
       double c = in.nextDouble();
       
+      //Strict 
       if (answer.equals("S"))
       {
       if (a>b && b>c)
@@ -22,6 +23,7 @@ public class NumOrderCondition
       else
         System.out.println("Neither"); 
     }
+    //lenient 
       else if (answer.equals("L"))
       {
         if (a==b && b==c)

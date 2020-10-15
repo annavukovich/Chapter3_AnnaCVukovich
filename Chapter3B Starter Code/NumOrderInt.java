@@ -1,5 +1,3 @@
- 
-
 import java.util.Scanner;
 
 public class NumOrderInt
@@ -13,12 +11,11 @@ public class NumOrderInt
       int b = in.nextInt();
       int c = in.nextInt();
       
-      if (a >= b && b >= c){
+      if (a >= b && b >= c)
           System.out.println("In order");
-      } else if (c >= b && b >= a){
+      else if (c >= b && b >= a)
           System.out.println("In order");
-      } else {
+      else 
           System.out.println("Not in order");
-      }
    }
 }

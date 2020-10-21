@@ -22,7 +22,10 @@ public class Triangle
             //Check to see if the values make a triangle 
             if (sideA+sideB<=sideC || sideA+sideC<=sideB ||sideB+sideC<=sideA)
                 System.out.println("These values don't make a triangle");
+            else if (sideA==0 || sideB==0 || sideC==0)
+                System.out.println("These values don't make a triangle");
             // find what kind of triangle the values make 
+            //scalene, isocilese, equilateral,
             else if (sideA==sideB && sideB==sideC)
                 System.out.println("The triangle is equilateral");
             else if (sideA==sideB || sideB==sideC || sideA==sideC)
@@ -46,6 +49,7 @@ public class Triangle
                 System.out.println("These values don't make a triangle");
                 
             // See what kind of triangle the values make
+            //Right, isocilese, equilateral, right isocilese 
             else if (angleA==angleB || angleB==angleC || angleA==angleC)
                 if (angleA==90 || angleB==90 || angleC==90)
                     System.out.println("These angles make a right isocilese triangle");
@@ -66,7 +70,8 @@ public class Triangle
 
 
 /*
- * Enter the 3 angles
+ * 
+Enter the 3 angles
 90 45 45
 These angles make a right isocilese triangle
 Enter S to input sides or A for angles

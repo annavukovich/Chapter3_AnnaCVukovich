@@ -2,7 +2,7 @@ import java.util.Scanner;
 /**
  * Write a description of class Triangle here.
  *
- * @author (your name)
+ * Anna Vukovic
  * @version (a version number or a date)
  */
 public class Triangle

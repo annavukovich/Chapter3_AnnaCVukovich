@@ -2,7 +2,7 @@ import java.util.Scanner;
 /**
  * Write a description of class LeapYear here.
  *
- * @author (your name)
+ * Anna Vukovich
  * @version (a version number or a date)
  */
 public class LeapYear

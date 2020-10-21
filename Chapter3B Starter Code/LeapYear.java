@@ -32,3 +32,14 @@ public class LeapYear
    
 }
 }
+
+/*
+ *
+Enter a year: 1900
+1900 is not a leap year
+Enter a year: 1984
+1984 is a leap year
+Enter a year: 2000
+2000 is a leap year
+
+ */

@@ -14,6 +14,7 @@ public class Minivan
         String sequence=new String(in.nextLine()); 
         boolean open=true, DashLeft=true, DashRight=true, inside=true; 
         
+        //set booleans acording to input
         if (!(sequence.substring(8).equals("P") ))
             open= false;
         else if (sequence.substring(3,4).equals("0"))
@@ -25,6 +26,7 @@ public class Minivan
             DashLeft= false; 
         }
         
+        //use booleanse to make output 
         if (open==false)
             System.out.println("Both doors stay closed");
         else if (DashRight== false && DashLeft==false)

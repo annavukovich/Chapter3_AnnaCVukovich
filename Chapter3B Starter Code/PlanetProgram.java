@@ -32,6 +32,7 @@ public class PlanetProgram
         choice= in.next().charAt(0); 
         DecimalFormat fmt2= new DecimalFormat("0.##");
         
+        //calculate the new weight and out put it acording to the user's choice
         switch(choice)
         {
             case '1':

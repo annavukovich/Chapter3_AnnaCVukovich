@@ -3,7 +3,7 @@ import java.text.DecimalFormat;
 /**
  * Write a description of class TaxRate here.
  *
- * @author (your name)
+ * Anna Vukovich
  * @version (a version number or a date)
  */
 public class TaxRate

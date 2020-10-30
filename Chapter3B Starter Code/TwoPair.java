@@ -1,7 +1,6 @@
- 
-
 import java.util.Scanner;
 
+// Anna Vukovich
 public class TwoPair
 {
    public static void main(String[] args)

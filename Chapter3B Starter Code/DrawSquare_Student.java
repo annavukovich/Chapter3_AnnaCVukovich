@@ -36,7 +36,7 @@ public static void main(String[] args)
     pen.move(30);
      * 
      */
-    pen.down();
+    /*pen.down();
     pen.setColor(Color.yellow);
     pen.move(30);
     pen.turn(120);
@@ -46,6 +46,61 @@ public static void main(String[] args)
     pen.setColor(Color.red);
     pen.move(30);
     pen.turn(120);
+     * 
+     */
+    
+    /*
+     * pen.down();
+    pen.setColor(Color.blue);
+    pen.move(100);
+    pen.turn(180);
+    pen.move(50);
+    pen.turn(30);
+    pen.move(100);
+    pen.turn(180);
+    pen.move(50);
+    pen.turn(30);
+    pen.move(100);
+    pen.turn(180);
+    pen.move(50);
+    pen.turn(30);
+    pen.move(100);
+    pen.turn(180);
+    pen.move(50);
+    pen.turn(30);
+    pen.move(100);
+    pen.turn(180);
+    pen.move(50);
+    pen.turn(30);
+    pen.move(100);
+    pen.turn(180);
+    pen.move(50);
+    pen.turn(30);
+    pen.move(100);
+    pen.turn(180);
+    pen.move(50);
+    pen.turn(30);
+    pen.move(100);
+    pen.turn(180);
+    pen.move(50);
+    pen.turn(30);
+    pen.move(100);
+    pen.turn(180);
+    pen.move(50);
+    pen.turn(30);
+    pen.move(100);
+    pen.turn(180);
+    pen.move(50);
+    pen.turn(30);
+    pen.move(100);
+    pen.turn(180);
+    pen.move(50);
+    pen.turn(30);
+    pen.move(100);
+    pen.turn(180);
+    pen.move(50);
+    pen.turn(30);
+     */
     
     
 }

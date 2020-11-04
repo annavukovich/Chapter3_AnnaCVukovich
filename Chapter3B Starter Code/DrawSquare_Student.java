@@ -21,9 +21,11 @@ public static void main(String[] args)
     // move back home
 
     //turn the pen
-    //pen.turn(90);
+    pen.turn(90);
     //draw with pen
-    /*pen.setColor(Color.red); 
+    
+    // square 
+    pen.setColor(Color.red); 
     pen.down(); 
     pen.move(30); 
     pen.turn(90);
@@ -35,9 +37,11 @@ public static void main(String[] args)
     pen.turn(90);
     pen.setColor(Color.blue); 
     pen.move(30);
-     * 
-     */
-    /*pen.down();
+     
+    // Triangle 
+    pen.up();
+    pen.move(0);
+    pen.down();
     pen.setColor(Color.yellow);
     pen.move(30);
     pen.turn(120);
@@ -47,8 +51,8 @@ public static void main(String[] args)
     pen.setColor(Color.red);
     pen.move(30);
     pen.turn(120);
-     * 
-     */
+    
+     
     
     /*
      * pen.down();
@@ -102,7 +106,6 @@ public static void main(String[] args)
     pen.move(50);
     pen.turn(30);
      */
-    
     
 }
 }

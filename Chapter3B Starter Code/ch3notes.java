@@ -45,6 +45,8 @@
             String word1= new String("apple"); 
             String word2= "cat";
             String word3= "dog";
+            
+            
            /* 
             System.out.println("Enter 3 numbers : ");
             int x= keyboard.nextInt();
@@ -134,7 +136,18 @@
         
             System.out.println("After the loop \n k= " +k +"\tj= " +j);
         
-        
+        */
+       Scanner in = new Scanner(System.in);
+       System.out.println("Enter numbers, then Q to proccess");
+       int number= in.nextInt(); 
+       
+       while (in.hasNextInt())
+       {
+          int input= in.nextInt();
+          System.out.println("eco-"+input); 
+           
+        }
+        System.out.println("Loop over"); 
         /*
             Scanner scanFile = new Scanner(new File("people.txt"));
             String name, address, phone;
@@ -176,18 +189,18 @@
         
         //_______________________basic for and scope of i________________________
         /**/
-                //ini
-                //middle
-                //body
-                //last
+                //ini #1a but only once 
+                //middle #1b the test- a boolean 
+                //body #2 execute 
+                //last #3 counter 
                 // ini          test     inc
-        /*  for(int i = 0 ; i < 20 ; i++ )
+         /* for(int i = 0, j=20 ; i < 20 && j>5; i++, j-=2 )
             {
-                System.out.print("Hi" + i + "\n");
+                System.out.print("Hi" + i +"-"+j+ "\n");
             }
         
-            //System.out.print("After the Loop" + i + "\n");
-        
+      //System.out.print("After the Loop" + i + "\n");// will give an error
+        // i is outside of the scope 
         
         
         
@@ -200,9 +213,9 @@
                                     "it is between 1-20");
             test = Keyboard.nextInt();
         
-            while (test != -9999)
+            while (test != -9999 && test !=15)
             {
-                if (test == 12)
+                if (test == 15)
                     System.out.println
                         ("it the age of my sons"+
                         " Thomas and Charlie");
@@ -215,15 +228,20 @@
         
         
         
-        /*  int i =0;//#1
+        int i =0;//#1
         
-                while (i<10)//#2
+                 while (i<10)//#2 when the test is true
                 {
                     System.out.print( "i =" + i +"\n");
                     i++;//#3
                 }
-        
-        
+        i=0;
+                do
+                {
+                    System.out.print( "i =" + i +"\n");
+                    i++;//#3 
+                    
+                }while(i<10);
         
         
         

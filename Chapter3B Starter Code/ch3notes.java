@@ -37,11 +37,19 @@
                                   "NoOne", "Bueller","Justin","David"};
                                   
         
+        Scanner scanFile = new Scanner(new File ("speaches/state of the union 2011.txt"));
+        int count_p=0, count_y=0, count_n=0, count_words=0, count_j=0;
+        while (scanFile.hasNext())
+        {
+            String word= scanFile.next(); 
+            if (word.equals("us")||word.equals("we"))
+                count_p++; 
+        }
         
      // logical opporater AND &&
      //logical OR ||
                      
-        String word = new String("cat");
+        /*String word = new String("cat");
             String word1= new String("apple"); 
             String word2= "cat";
             String word3= "dog";
@@ -54,7 +62,7 @@
             int z= keyboard.nextInt();
         */ 
        
-        double num1, num2, num3;
+       /* double num1, num2, num3;
         //convrts to binary (1 and 0)
         //the result is a bit off 
         num1= 0.01*1+.05*2+.1*3+.25*4; 
@@ -64,7 +72,7 @@
         System.out.println("num2- "+num2);
         
         //if (num1==1.41)// error when doubles are calculated can be a bit ofr
-        if (Math.abs(num1-1.41)<TOLERANCE) 
+        /*if (Math.abs(num1-1.41)<TOLERANCE) 
         {
             System.out.println("equal");
         }
@@ -137,7 +145,7 @@
             System.out.println("After the loop \n k= " +k +"\tj= " +j);
         
         */
-       Scanner in = new Scanner(System.in);
+       /*Scanner in = new Scanner(System.in);
        System.out.println("Enter numbers, then Q to proccess");
        int number= in.nextInt(); 
        
